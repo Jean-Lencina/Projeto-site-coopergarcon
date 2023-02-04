@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    padding: 20px;
+}
+
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+a.menucont{
+    border: 1px solid black;
+    padding: 10px 50px 10px 50px;
+    margin-left: 100px;
+}
+
+a.menucont:hover{
+    background-color: black;
+    color: white;
+}
+
+section{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+section > h1{
+    padding: 20px;
+}
+
+section > p{
+    padding-bottom: 50px;
+}
+
+section img{
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}
