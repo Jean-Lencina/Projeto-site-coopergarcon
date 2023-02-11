@@ -1,33 +1,48 @@
+@charset "UTF-8";
+
 *{
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-nav{
+span#burger{
+    display: none;
+}
+
+menu > ul > li{
+    display: inline-block;
+}
+
+menu > ul > li.right-menu{
+    text-align: right;
+}
+
+ul{
     background-color: white;
     color: black;
     font-weight: bold;
-    text-align: center;
     margin-top: 5px;
     padding: 20px;
 }
 
-nav a{
+ul > li > a{
     padding: 10px;
     text-decoration: none;
     color: black;
 }
 
-a.menucont{
+
+a.order{
+    margin-left: 50px;
     border: 1px solid black;
     padding: 10px 50px 10px 50px;
-    margin-left: 100px;
 }
 
-a.menucont:hover{
+a.order:hover{
     background-color: black;
     color: white;
 }
