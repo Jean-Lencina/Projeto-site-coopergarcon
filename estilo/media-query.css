@@ -1,16 +1,10 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 980px){
-    section.img{
-        background-color: blue;
-    }    
+    
 }
 
-@media screen and (min-width: 980px){
-    section.img{
-        background-color: red;
-    }
-    
+@media screen and (min-width: 980px){    
     span#burger{
         display: none;
     }
