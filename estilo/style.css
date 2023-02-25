@@ -53,7 +53,7 @@ span#burger{
     cursor: pointer;
 }
 
-menu{
+nav{
     display: none;
     padding: 10px;
 }

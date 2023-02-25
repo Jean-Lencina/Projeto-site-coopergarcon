@@ -4,16 +4,38 @@
     
 }
 
-@media screen and (min-width: 980px){    
+@media screen and (min-width: 768px){    
     span#burger{
         display: none;
     }
 
-    ul > li > a{
+    div.menu{
+        padding: 30px;
+        padding-left: 300px;
+    }
+    
+    nav{
+        display: block;
+        margin: auto;
+    }
+
+    nav.items2 > li{
+        float: right;
+        
+        transform: translate(-250px -150px);
+    }
+
+    li{
         display: inline-block;
+        margin: auto;
+    }
+
+    ul > li > a{
+        
         text-decoration: none;
         color: black;
         padding: 10px;
         line-height: 2em;
     }
+
 }
